@@ -11,26 +11,13 @@ Python based simulation of Particle Life that uses OpenCL and OpenGL.
 Particle-Life uses Pyopencl to calculate forces between particles, thus OpenCL needs to be installed on your system.  
 Rendering the particles is done with OpenGL. An older version (OpenGL 2.0) is used for this.   
 
-## Python packages
+## Requirements
 
-numpy (1.24.3)  
+numpy==1.24.3, pynput==1.7.6, pyopencl==2023.1, pyglet==1.5.27
 
-    pip install numpy  
+    pip install -r requirements.txt  
   
-pynput (1.7.6)  
+## Usage
+Run the main.py file to start the simulation.
 
-    pip install pynput
-  
-pyopencl (2023.1)
-
-    pip install pyopencl
-
-pyglet (1.5.27 - an older maintenance version)
-
-      git clone https://github.com/pyglet/pyglet.git  
-      
-      cd pyglet  
-      
-      git checkout pyglet-1.5-maintenance  
-      
-      python setup.py install --user  
+    python main.py

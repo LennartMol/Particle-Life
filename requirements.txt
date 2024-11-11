@@ -1,0 +1,4 @@
+numpy
+pynput
+pyopencl
+pyglet==1.5
